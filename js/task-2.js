@@ -32,6 +32,7 @@ const galleryItems = images.map((image) => {
   imageElement.src = image.url;
   imageElement.alt = image.alt;
 
+
   listItem.append(imageElement);
 
   return listItem;
